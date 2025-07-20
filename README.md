@@ -1,8 +1,15 @@
 # Design Pattern for Reusing Immutable Methods in Object-Oriented Languages
 
-This repository contains code exemples of the design pattern described in the paper titled "Design Pattern for Reusing Immutable Methods in Object-Oriented Languages" sent to the EuroPlop 2023 conference.
+This repository contains code examples of the design pattern described in the paper titled "Design Pattern for Reusing Immutable Methods in Object-Oriented Languages" published in the Proceedings of the 28th European Conference on Pattern Languages of Programs (EuroPlop 2023) and its extension sent to the Journal of Computer Languages.
 
-The exemples are in four programming languages: Clojure, Java, Kotlin, and Rust. 
+The examples are in 8 programming languages: Clojure, Common Lisp, C#, Java, Kotlin, OCaml, Rust, and Scala.
+
+There are two languages with multiple examples:
+
+- There is a "naive" version of the Java example which does not use the proposed design pattern (java-nopattern.java).
+- There are two versions of the Common Lisp example:
+    * common-lisp.lisp uses the proposed design pattern with the base language.
+    * common-list-expended.lisp uses the proposed language extension instead.
 
 Each example implements a fully immutable geometry system with the types point, size, and rectangle. They showcase reusing the methods declared for point and size for rectangle without having to reimplement or create delegeting methods for rectangle.
 

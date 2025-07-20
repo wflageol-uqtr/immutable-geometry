@@ -1,0 +1,7 @@
+java np 144
+java    145
+clojure 107
+kotlin  109
+ocaml   103
+rust    135
+scala   103
